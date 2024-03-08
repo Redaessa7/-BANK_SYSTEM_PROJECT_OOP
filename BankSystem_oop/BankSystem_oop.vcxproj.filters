@@ -34,6 +34,9 @@
     <Filter Include="Header Files\User InterFaces%28UI%29\Screens\Longin&amp;LogoutScreen">
       <UniqueIdentifier>{f7567ca6-eace-4802-8271-17eb8eb5d5cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\User InterFaces%28UI%29\Screens\CurrencyScreen">
+      <UniqueIdentifier>{db66fa99-0a15-41d4-91fc-03af4ce9cd25}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BankSystem_oop.cpp">
@@ -118,6 +121,24 @@
     </ClInclude>
     <ClInclude Include="cShowTransferLogsScreen.h">
       <Filter>Header Files\User InterFaces%28UI%29\Screens\TransactionScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="cCurrency.h">
+      <Filter>Header Files\Business Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="cCurrencyScreen.h">
+      <Filter>Header Files\User InterFaces%28UI%29\Screens\CurrencyScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="cListOfCurrencies.h">
+      <Filter>Header Files\User InterFaces%28UI%29\Screens\CurrencyScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="cFindCurrencyScreen.h">
+      <Filter>Header Files\User InterFaces%28UI%29\Screens\CurrencyScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="cUpdateCurrencyRateScreen.h">
+      <Filter>Header Files\User InterFaces%28UI%29\Screens\CurrencyScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="cCurrencyCalcScreen.h">
+      <Filter>Header Files\User InterFaces%28UI%29\Screens\CurrencyScreen</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

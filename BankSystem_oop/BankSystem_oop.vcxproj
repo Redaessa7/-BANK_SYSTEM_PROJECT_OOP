@@ -133,12 +133,17 @@
     <ClInclude Include="cAddNewClientScreen.h" />
     <ClInclude Include="cAddNewUserScreen.h" />
     <ClInclude Include="cClient.h" />
+    <ClInclude Include="cCurrency.h" />
+    <ClInclude Include="cCurrencyCalcScreen.h" />
+    <ClInclude Include="cCurrencyScreen.h" />
     <ClInclude Include="cDeleteClientScreen.h" />
     <ClInclude Include="cDeleteUserScreen.h" />
     <ClInclude Include="cFindClientScreen.h" />
+    <ClInclude Include="cFindCurrencyScreen.h" />
     <ClInclude Include="cFindUserScreen.h" />
     <ClInclude Include="cGlobal.h" />
     <ClInclude Include="cListClientsScreen.h" />
+    <ClInclude Include="cListOfCurrencies.h" />
     <ClInclude Include="cListOfRegisterLoginScreen.h" />
     <ClInclude Include="cListOfUsersScreen.h" />
     <ClInclude Include="cLonginScreen.h" />
@@ -153,6 +158,7 @@
     <ClInclude Include="cTransactionScreen.h" />
     <ClInclude Include="cTransferScreen.h" />
     <ClInclude Include="cUpdateClientScreen.h" />
+    <ClInclude Include="cUpdateCurrencyRateScreen.h" />
     <ClInclude Include="cUpdateUserScreen.h" />
     <ClInclude Include="cUser.h" />
     <ClInclude Include="cWelcomeScreen.h" />

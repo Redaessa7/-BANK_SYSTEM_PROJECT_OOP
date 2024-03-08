@@ -10,6 +10,7 @@
 #include "cFindClientScreen.h"
 #include "cTransactionScreen.h"
 #include "cMangeUsersScreen.h"
+#include "cCurrencyScreen.h"
 #include "../Librarys/rMenu.h"
 
 class cMainScreen :protected cScreen
@@ -19,7 +20,7 @@ private:
 	enum eMainChoice
 	{
 		eShowClients = 1, eAddNewClient = 2, eDeleteClient = 3, eUpdateClientInfo = 4,
-		eFindClient = 5, eTransactions = 6, eManagement = 7, eLogout = 8,
+		eFindClient = 5, eTransactions = 6, eManagement = 7, eCurrencyEx = 8,eLogout = 9,
 	};
 	
 	// Screens
@@ -67,6 +68,11 @@ private:
 		//system("cls");
 		//cout << "\nShow Management Screen Be Here!" << endl;
 		cMangeUsersScreen::showMangeUsersScreen();
+	}
+
+	static void _showCurrencyExchangeScreen()
+	{
+		cCurrencyScreen::showCurrencyScreen();
 	}
 	
 	static void _showLogOutScreen()
@@ -133,6 +139,10 @@ private:
 			_showManagementScreen();
 			_backMainMenuScreen();
 			break;
+		case cMainScreen::eCurrencyEx:
+			_showCurrencyExchangeScreen();
+			_backMainMenuScreen();
+			break;
 		case cMainScreen::eLogout:
 			_showLogOutScreen();
 			/*_backMainMenuScreen();*/
@@ -144,7 +154,7 @@ private:
 	static void _showMainMenu()
 	{
 		vector<string> _itemOfMenu = {
-		"Show Clients", "Add New Client", "Delete Client", "Update Client Info", "Find Client", "Transactions" ,"Management","Logout"
+		"Show Clients", "Add New Client", "Delete Client", "Update Client Info", "Find Client", "Transactions" ,"Management","Currency Exchange","Logout"
 		};
 
 		cout << cFormat::tab(5) <<"========================================" << endl;

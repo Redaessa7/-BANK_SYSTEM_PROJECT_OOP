@@ -73,7 +73,7 @@ private:
 
             if (i == selected)
             {
-                SetConsoleTextAttribute(console, _color[1]);
+                SetConsoleTextAttribute(console, _color[1]); 
                 cout << menuItem[i] << endl;
             }
             else
